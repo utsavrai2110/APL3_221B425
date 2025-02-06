@@ -1,7 +1,7 @@
-public class Mother {
-	int x;
-
-	void show() {
-		System.out.println("Hello World");
-	}
+public class Main {
+    public static void main(String[] args) {
+        Voice voice = new Voice();
+        voice.prepareVoice();
+        voice.hear();
+    }
 }
